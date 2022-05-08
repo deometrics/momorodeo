@@ -1,0 +1,33 @@
+.strikethrough{
+    text-decoration: line-through;
+}
+
+li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.delete{
+    color: red;
+    font-style: oblique;
+}
+
+#deleteItemsButton{
+    display: none;
+}
+
+.mainPageButton {
+    display: flex;
+    justify-content: center;
+    min-width: 160px;
+}
+
+.not-visible {
+    display: none;
+}
+
+li span{
+    flex-shrink: 0;
+}

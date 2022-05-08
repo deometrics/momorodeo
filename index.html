@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Red Door's List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+    <body class="bg-slate-600 text-white font-[Quicksand]">
+        <div class="flex justify-center items-center flex-col h-[100vh]">
+            <p id="wrong" class="hide text-xl font-bold text-red-500">WRONG PASS DUDE</p>
+                <form id="form" class="bg-slate-500 p-10 rounded-xl" onsubmit="return false">
+                    <div class="w-min flex flex-col items-center">
+                        <label for="pass"></label>
+                        <input type="password" id="pass" name="pass" placeholder="password" class="p-2 mb-3 placeholder-slate-300 bg-slate-400">
+                        <button id="btn" type="submit" class="text-white bg-blue-700 hover:bg-blue-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2">
+                            <svg class="inline w-5 h-5 mr-2 -ml-1" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg>
+                            <span>submit</span>
+                        </button>
+                    </div>
+                </form>
+        </div>
+    </body>
+
+    <script src="login.js"></script>
+</html>
